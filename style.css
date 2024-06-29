@@ -1,52 +1,63 @@
-.img-size{
-    width:858px;
-    height: 383px;
+/* div의 높이를 먼저 설정하고, 이미지 비율 설정  */
+.carousel-item {
+    border: red solid 5px;
+  height: 600px;
+}
+.carousel-item img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
-.carousel-item {
-    height: 500px;
-  }
-.carousel-item img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-  }
 
 .headline {
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 100px;
+  border: red solid 1px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+  text-align: center; /*글자 정렬 */
 }
-  
+
 .headline-content {
-    width: 75%;
-    margin: 0 auto; 
+  border: red solid 1px;
+  width: 70%;
+  margin: 0 auto; /*나머지 마진 30% 중 15%씩 양쪽에 배치된다. 그래서 가로영영의 수평 가운데 정렬이 됨 */
+}
+
+.headline-content p {
+    border: red solid 1px;
+  padding: 20px;
 }
 
 .headline-text {
-    font-weight: bold;
-    padding-bottom: 10px;
-  }
+  font-weight: bold;
+}
 
 .purchase-btn {
-    padding: 10px 20px; 
-    font-size: 18px; 
-    border-radius: 10px;
-    margin-bottom: 50px;
+  padding: 10px 30px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.mid-img {
+  margin-bottom: 200px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.mid-img img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.headline .mid-img {
+    margin-bottom: 200px;
   }
 
-  .mid-img {
-    margin-bottom: 200px;
-    width: 80%;
-    margin: 0 auto; 
-  }
-  
-  .mid-img img {
-    width: 100%; 
-}
+
   
 footer {
-    padding: 20px 0 10px 0;
-    bottom: 0;
-    width: 100%;
- }
+  padding: 20px 0 10px 0;
+  width: 100%;
+  border: red solid 5px;
+}
