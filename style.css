@@ -1,6 +1,5 @@
 /* div의 높이를 먼저 설정하고, 이미지 비율 설정  */
 .carousel-item {
-    border: red solid 5px;
   height: 600px;
 }
 .carousel-item img {
@@ -11,7 +10,6 @@
 
 
 .headline {
-  border: red solid 1px;
   margin-top: 50px;
   margin-bottom: 50px;
 
@@ -19,13 +17,11 @@
 }
 
 .headline-content {
-  border: red solid 1px;
   width: 70%;
   margin: 0 auto; /*나머지 마진 30% 중 15%씩 양쪽에 배치된다. 그래서 가로영영의 수평 가운데 정렬이 됨 */
 }
 
 .headline-content p {
-    border: red solid 1px;
   padding: 20px;
 }
 
@@ -59,5 +55,4 @@
 footer {
   padding: 20px 0 10px 0;
   width: 100%;
-  border: red solid 5px;
 }
